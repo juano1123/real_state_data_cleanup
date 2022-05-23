@@ -2,7 +2,7 @@ import numpy as np
 
 listaUna = [1,2,3,4]
 listaDos = [
-    #[1,2,3,4],
+    [1,2,3,4],
     [5,6,7,8]
 ]
 
@@ -67,8 +67,8 @@ arrayOperaciones2 = newArray2
 #print(arrayOperaciones2)
 #print(np.expand_dims(arrayOperaciones, axis=0) * arrayOperaciones2)
 #print(arrayOperaciones2)
-arrayReshape = arrayOperaciones2.reshape(2,2)
-arrayReshape2 = arrayReshape.copy()
+# arrayReshape = arrayOperaciones2.reshape(2,2)
+# arrayReshape2 = arrayReshape.copy()
 #print(arrayReshape)
 #print(arrayReshape2)
 #print(arrayReshape - arrayReshape2)
